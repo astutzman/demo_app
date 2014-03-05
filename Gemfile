@@ -5,8 +5,7 @@ ruby '1.9.3'
 gem 'rails', '4.0.3'
 
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
-gem 'pg', '0.15.0'
+gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -35,7 +34,7 @@ group :doc do
 end
 
 group :prodcution do
-#  gem 'pg', '0.15.0'
+  gem 'pg', '0.15.0'
   gem 'rails_12factor', '0.0.2'
 end
 
